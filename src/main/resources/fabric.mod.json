@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "hugoauction",
+  "version": "1.4.0",
+  "name": "HugoSMP Auction - Neoloni Edition",
+  "description": "HugoSMP Auktions-Overlay: Live-Leaderboard, Java- und Bedrock-Spieler, Ergebnis-Fenster per J, Namen kopieren, Themes.",
+  "environment": "client",
+  "entrypoints": { "client": ["net.hugosmp.auction.HugoAuctionClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
